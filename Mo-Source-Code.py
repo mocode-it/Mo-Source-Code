@@ -34,6 +34,7 @@ print('''\033[1;36m
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ''')
 url = input('\033[1;35mWeb Target : ')
+print('')
 source = requests.get(url)
 #out = print(source.text)
 path_file = str(input('Your File Path : '))
