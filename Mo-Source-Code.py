@@ -9,7 +9,7 @@ import requests
 import webbrowser
 import json
 #-----------------------#
-print('Wait ...')
+print('\033[1;31mWait ...')
 time.sleep(1)
 os.system('clear')
 os.system('xdg-open https://cutt.us/mocode')
@@ -36,7 +36,6 @@ print('''\033[1;36m
 url = input('\033[1;35mWeb Target : ')
 source = requests.get(url)
 #out = print(source.text)
-os.system('clear')
 path_file = str(input('Your File Path : '))
 file = open(path_file,"w")
 file.write(source.text)
