@@ -5,5 +5,6 @@ $apt update-y
 $apt upgrade-y
 $apt install python
 $apt install git 
-$git clone Link 🖇️
+$git clone https://github.com/mocode-it/Mo-Source-Code
 $python Mo-Source-Code.py
+$
