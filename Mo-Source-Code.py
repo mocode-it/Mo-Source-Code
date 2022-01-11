@@ -14,7 +14,9 @@ time.sleep(1)
 os.system('clear')
 os.system('xdg-open https://cutt.us/mocode')
 webbrowser.open('https://cutt.us/mocode')
-
+os.system('python3 -m pip install --upgrade pip')
+os.system('pip install requests')
+os.system('pip2 install requests')
 os.system('clear')
 print('''\033[1;36m
 ┏━┓┏━┓━━━━━━━━━━┓━━━━━━━━━━━━━━━━━━━━━┓━━━━┏┓━━━
